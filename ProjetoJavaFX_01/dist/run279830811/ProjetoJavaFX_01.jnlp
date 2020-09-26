@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ProjetoJavaFX_01.jnlp">
+  <information>
+    <title>ProjetoJavaFX_01</title>
+    <vendor>Erick</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ProjetoJavaFX_01.jar" size="5264" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ProjetoJavaFX_01" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="projetojavafx_01.ProjetoJavaFX_01"  name="ProjetoJavaFX_01" />
+  <update check="always"/>
+</jnlp>
